@@ -14,3 +14,14 @@ rm testing.py
 git status
 git restore testing.py
 git status
+ git add git_command.txt
+git status 
+git commit -m "added git commands"
+git status
+git remote add origin https://github.com/pyalvaidya24-roohi/GITHUB-FOR-DEVOPS.git
+git remote -v
+git status
+git remote -v
+git remote set-url origin https://TOKEN@github.com/pyalvaidya24-roohi/GITHUB-FOR-DEVOPS.git
+git remote -v
+git push origin master
