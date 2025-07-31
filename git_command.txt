@@ -1,0 +1,16 @@
+ls
+git status 
+git rm --cached testing.py
+git status
+git add.
+ls
+git add .
+ls
+git status
+clear
+git commit -m "added testing files"
+git status
+rm testing.py
+git status
+git restore testing.py
+git status
